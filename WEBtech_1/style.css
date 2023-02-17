@@ -1,0 +1,131 @@
+
+:root {
+  color-scheme: dark;
+}
+
+.row {
+  padding: 10px;
+}
+
+.banner > * {
+  margin: 10px 0px 20px 0px;
+}
+
+#titleDiv > * {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #b30000;
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+#subtitleDiv {
+  align-self: center;
+}
+
+#subtitleDiv > * {
+  color: #b30000;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+#subtitleDiv2 > * {
+  color: #b30000;
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+#contentDiv {
+  align-self: center;
+}
+
+#listDiv {
+  align-self: center;
+}
+
+#listDiv > * > li {
+  align-self: left;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.25vw;
+}
+
+#imgDiv {
+  display: grid;
+  place-items: center;
+}
+
+#imgDiv > * {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#linkDiv > * {
+  color: wheat;
+  align-self: center;
+  font-weight: bold;
+}
+
+span {
+  color: white; 
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+  background-color: #414141;
+}
+
+.section-bg {
+  width: auto;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+@media(max-width:600px) {
+  .section-bg {
+    background-attachment: scroll;
+    height: 800px;
+  }
+}
+
+.background-1 {
+  background-image: url(./pics/AC_wp_01.jpg);
+}
+
+.background-2 {
+  background-image: url(./pics/AC_wp_02.jpg);
+}
+
+.background-3 {
+  background-image: url(./pics/AC_wp_03.jpg);
+}
+
+.background-4 {
+  background-image: url(./pics/AC_wp_04.jpg);
+}
+
+.zoom {
+  transition: transform .4s;
+}
+.zoom:hover {
+  transform: scale(2.5);
+}
+

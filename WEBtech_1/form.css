@@ -1,0 +1,108 @@
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: gray;
+    color: #c3d5d5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+legend {
+    color: #b30000;
+    font-size: 2vw;
+}
+
+.form-container {
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .9);
+    border: 10px solid #aeaeae;
+}
+
+
+.form-container .input {
+    margin-bottom: 15px;
+}
+
+input[type=text], input[type=date], input[type=email], select {
+    width: 100%;
+    height: 2.5vw;
+    color: white;
+}
+
+option {
+    color: white;
+}
+
+input[type=color] {
+    width: 50%;
+    height: 2vw;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: 1vw;
+    height: 1vw;
+}
+
+.button {
+    width: 30%;
+    text-align: center;
+    height: 4vw;
+    margin-top: 15px;
+    color: #aeaeae;
+    background-color: #222222;
+    border-radius: 3px;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .5);
+}
+
+.button:hover {
+    background-color: #636363;
+    color: #ffffff;
+}
+
+label.error {
+    font-size: 1vw;
+    color: red;
+    display: block;
+}
+
+.loading, .loading:hover {
+    background-color: #39e75f;
+    color: #ffffff;
+}
+
+.loading-icon {
+    font-size: 1.5vw;
+    display: inline-block;
+    animation: spin 2s linear infinite;
+}
+
+.check-icon {
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

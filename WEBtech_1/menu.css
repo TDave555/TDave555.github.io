@@ -1,0 +1,42 @@
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    mix-blend-mode: lighten;
+    cursor: pointer;
+  }
+
+  #icon {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  
+  .menu-items {
+    display: none;
+  }
+  
+  .menu:hover .menu-items {
+    display: grid;
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    align-content: left;
+  }
+  
+  .menu:hover .menu-items * {
+    background: transparent;
+  }
+  
+  .menu:hover .menu-items ul li a {
+    color: slategrey; 
+    text-decoration: none;
+    font-size: large;
+    background: transparent;
+  }
+  
+  .menu:hover .menu-items ul li a:hover {
+    color: white;
+  }
