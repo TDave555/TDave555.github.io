@@ -1,3 +1,3 @@
 # Weboldalak:
 
-https://tdave555.github.io/Webtech_1
+https://tdave555.github.io/WEBtech_1
